@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testng-results failed="1" passed="4" skipped="0" total="5">
+    <suite duration-ms="103434" name="io.cucumber.core.plugin.TestNGFormatter">
+        <test duration-ms="103434" name="io.cucumber.core.plugin.TestNGFormatter">
+            <class name="End to End Feature">
+                <test-method name="End to End Scenario" started-at="2021-11-18T13:53:18.005722Z"/>
+                <test-method name="End to End Scenario_2" started-at="2021-11-18T13:53:18.006666Z"/>
+                <test-method name="End to End Scenario_3" started-at="2021-11-18T13:53:18.006707Z"/>
+                <test-method duration-ms="247226" finished-at="2021-11-18T13:54:44.534492Z" name="End to End Scenario_4" started-at="2021-11-18T13:53:18.008014Z" status="FAIL">
+                    <exception class="org.openqa.selenium.TimeoutException">
+                        <message><![CDATA[Given I navigate to website.................................................passed
+And I SignIn as "fav_user" with "testingisfun99" password...................passed
+And I add two products to cart..............................................passed
+And I click on Buy Button...................................................passed
+And I enter shipping details "first", "last", "test address", "test province" and "123456".passed
+And I click on Checkout Button..............................................passed
+Given I navigate to website.................................................passed
+And I click on "Orders" link................................................passed
+Then I should see elements in list..........................................passed
+And I SignIn as "fav_user" with "testingisfun99" password...................passed
+And I add two products to cart..............................................passed
+And I click on Buy Button...................................................passed
+Given I navigate to website.................................................passed
+And I enter shipping details "first", "last", "test address", "test province" and "123456".passed
+And I click on Checkout Button..............................................passed
+And I click on "Orders" link................................................passed
+Then I should see elements in list..........................................passed
+Given I navigate to website.................................................passed
+And I SignIn as "fav_user" with "testingisfun99" password...................passed
+And I add two products to cart..............................................passed
+And I SignIn as "fav_user" with "testingisfun99" password...................passed
+And I click on Buy Button...................................................passed
+And I enter shipping details "first", "last", "test address", "test province" and "123456".passed
+And I add two products to cart..............................................passed
+And I click on Buy Button...................................................passed
+And I click on Checkout Button..............................................failed
+And I click on "Orders" link................................................skipped
+Then I should see elements in list..........................................skipped
+]]></message>
+                        <full-stacktrace><![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.cssSelector: #checkout-app > div > div > div > div > a > button (tried for 5 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at com.browserstack.examples.stepdefs.CheckoutPageSteps.iClickOnCheckoutButton(CheckoutPageSteps.java:25)
+	at ✽.I click on Checkout Button(classpath:features/e2e.feature:10)
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to find element with css selector == #checkout-app > div > div > div > div > a > button (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Khalids-MacBook-Pro.local', ip: '2401:4900:1aa3:938d:98e3:715c:5238:11be%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.0.1', java.version: '17'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {browserAttachTimeout: 0, browserName: internet explorer, cssSelectorsEnabled: true, elementScrollBehavior: 0, enableElementCacheCleanup: true, enablePersistentHover: true, handlesAlerts: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.forceCreateProcessApi: false, ie.usePerProcessProxy: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: about:blank, javascriptEnabled: true, nativeEvents: true, platform: WINDOWS, platformName: WINDOWS, requireWindowFocus: false, takesScreenshot: true, unexpectedAlertBehaviour: dismiss, unhandledPromptBehavior: dismiss, version: 11, webdriver.remote.sessionid: dedf68474e134ace64af815b67a...}
+Session ID: dedf68474e134ace64af815b67a0d85cfef756eb
+*** Element info: {Using=css selector, value=#checkout-app > div > div > div > div > a > button}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:420)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:205)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:201)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+	at com.browserstack.examples.stepdefs.CheckoutPageSteps.iClickOnCheckoutButton(CheckoutPageSteps.java:25)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24)
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+	at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:92)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:64)
+	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:104)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:73)
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$0(TestNGCucumberRunner.java:117)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:117)
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:114)
+	at com.browserstack.examples.tests.RunWebDriverCucumberTests.feature(RunWebDriverCucumberTests.java:56)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:77)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:15)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+]]></full-stacktrace>
+                    </exception>
+                </test-method>
+            </class>
+            <class name="Login Feature">
+                <test-method name="Login with given 'fav_user' user" started-at="2021-11-18T13:53:17.997001Z"/>
+                <test-method name="Login with given 'fav_user' user_2" started-at="2021-11-18T13:53:17.997116Z"/>
+                <test-method name="Login with given 'fav_user' user_3" started-at="2021-11-18T13:53:17.997125Z"/>
+                <test-method duration-ms="163782" finished-at="2021-11-18T13:54:08.776985Z" name="Login with given 'fav_user' user_4" started-at="2021-11-18T13:53:18.006244Z" status="PASS"/>
+                <test-method name="Login with given 'image_not_loading_user' user" started-at="2021-11-18T13:53:17.997001Z"/>
+                <test-method name="Login with given 'image_not_loading_user' user_2" started-at="2021-11-18T13:53:18.007093Z"/>
+                <test-method name="Login with given 'image_not_loading_user' user_3" started-at="2021-11-18T13:53:47.727249Z"/>
+                <test-method duration-ms="73227" finished-at="2021-11-18T13:54:22.809610Z" name="Login with given 'image_not_loading_user' user_4" started-at="2021-11-18T13:53:50.974837Z" status="PASS"/>
+                <test-method name="Login with given 'existing_orders_user' user" started-at="2021-11-18T13:53:57.070634Z"/>
+                <test-method name="Login with given 'existing_orders_user' user_2" started-at="2021-11-18T13:53:58.382445Z"/>
+                <test-method name="Login with given 'existing_orders_user' user_3" started-at="2021-11-18T13:54:01.462278Z"/>
+                <test-method duration-ms="130264" finished-at="2021-11-18T13:54:40.427788Z" name="Login with given 'existing_orders_user' user_4" started-at="2021-11-18T13:54:02.234875Z" status="PASS"/>
+                <test-method name="Login as Locked User" started-at="2021-11-18T13:54:02.292215Z"/>
+                <test-method name="Login as Locked User_2" started-at="2021-11-18T13:54:08.784234Z"/>
+                <test-method name="Login as Locked User_3" started-at="2021-11-18T13:54:09.362470Z"/>
+                <test-method duration-ms="67647" finished-at="2021-11-18T13:54:42.446339Z" name="Login as Locked User_4" started-at="2021-11-18T13:54:22.818694Z" status="PASS"/>
+            </class>
+            <class name="Offers Feature">
+                <test-method name="Offers for Mumbai location" started-at="2021-11-18T13:54:23.037440Z"/>
+                <test-method name="Offers for Mumbai location_2" started-at="2021-11-18T13:54:24.575565Z"/>
+                <test-method name="Offers for Mumbai location_3" started-at="2021-11-18T13:54:28.643944Z"/>
+                <test-method name="Offers for Mumbai location_4" started-at="2021-11-18T13:54:33.231659Z"/>
+            </class>
+            <class name="Product Feature">
+                <test-method name="Apply Apple Vendor Filter" started-at="2021-11-18T13:54:37.333497Z"/>
+                <test-method name="Apply Apple Vendor Filter_2" started-at="2021-11-18T13:54:40.436626Z"/>
+                <test-method name="Apply Apple Vendor Filter_3" started-at="2021-11-18T13:54:42.451213Z"/>
+                <test-method name="Apply Apple Vendor Filter_4" started-at="2021-11-18T13:54:44.541688Z"/>
+            </class>
+        </test>
+    </suite>
+</testng-results>

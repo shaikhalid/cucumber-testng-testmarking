@@ -1,0 +1,164 @@
+<html>
+<head>
+<title>TestNG:  Cucumber Tests</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Cucumber Tests</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>17/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Nov 18 19:23:00 IST 2021</td>
+</tr>
+<tr><td>Total time:</td><td>104 seconds (104718 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.browserstack.examples.tests.RunWebDriverCucumberTests.feature()'><b>feature</b><br>Test class: com.browserstack.examples.tests.RunWebDriverCucumberTests<br>Test method: Runs Cucumber Feature<br>Parameters: "Login with given 'image_not_loading_user' user", "Optional[Login Feature]", com.browserstack.examples.core.ManagedWebDriver@659df2cd</td>
+<td></td>
+<td>21</td>
+<td>com.browserstack.examples.tests.RunWebDriverCucumberTests@2aece37d</td></tr>
+<tr>
+<td title='com.browserstack.examples.tests.RunWebDriverCucumberTests.feature()'><b>feature</b><br>Test class: com.browserstack.examples.tests.RunWebDriverCucumberTests<br>Test method: Runs Cucumber Feature<br>Parameters: "Login with given 'fav_user' user", "Optional[Login Feature]", com.browserstack.examples.core.ManagedWebDriver@a315cc</td>
+<td></td>
+<td>44</td>
+<td>com.browserstack.examples.tests.RunWebDriverCucumberTests@2aece37d</td></tr>
+<tr>
+<td title='com.browserstack.examples.tests.RunWebDriverCucumberTests.feature()'><b>feature</b><br>Test class: com.browserstack.examples.tests.RunWebDriverCucumberTests<br>Test method: Runs Cucumber Feature<br>Parameters: "Login with given 'fav_user' user", "Optional[Login Feature]", com.browserstack.examples.core.ManagedWebDriver@3e5dbe77</td>
+<td></td>
+<td>39</td>
+<td>com.browserstack.examples.tests.RunWebDriverCucumberTests@2aece37d</td></tr>
+<tr>
+<td title='com.browserstack.examples.tests.RunWebDriverCucumberTests.feature()'><b>feature</b><br>Test class: com.browserstack.examples.tests.RunWebDriverCucumberTests<br>Test method: Runs Cucumber Feature<br>Parameters: "Login with given 'existing_orders_user' user", "Optional[Login Feature]", com.browserstack.examples.core.ManagedWebDriver@349d154e</td>
+<td></td>
+<td>35</td>
+<td>com.browserstack.examples.tests.RunWebDriverCucumberTests@2aece37d</td></tr>
+<tr>
+<td title='com.browserstack.examples.tests.RunWebDriverCucumberTests.feature()'><b>feature</b><br>Test class: com.browserstack.examples.tests.RunWebDriverCucumberTests<br>Test method: Runs Cucumber Feature<br>Parameters: "Login with given 'existing_orders_user' user", "Optional[Login Feature]", com.browserstack.examples.core.ManagedWebDriver@2f5036e8</td>
+<td></td>
+<td>27</td>
+<td>com.browserstack.examples.tests.RunWebDriverCucumberTests@2aece37d</td></tr>
+<tr>
+<td title='com.browserstack.examples.tests.RunWebDriverCucumberTests.feature()'><b>feature</b><br>Test class: com.browserstack.examples.tests.RunWebDriverCucumberTests<br>Test method: Runs Cucumber Feature<br>Parameters: "Login with given 'existing_orders_user' user", "Optional[Login Feature]", com.browserstack.examples.core.ManagedWebDriver@3ba3d668</td>
+<td></td>
+<td>43</td>
+<td>com.browserstack.examples.tests.RunWebDriverCucumberTests@2aece37d</td></tr>
+<tr>
+<td title='com.browserstack.examples.tests.RunWebDriverCucumberTests.feature()'><b>feature</b><br>Test class: com.browserstack.examples.tests.RunWebDriverCucumberTests<br>Test method: Runs Cucumber Feature<br>Parameters: "Login with given 'image_not_loading_user' user", "Optional[Login Feature]", com.browserstack.examples.core.ManagedWebDriver@3dda681e</td>
+<td></td>
+<td>44</td>
+<td>com.browserstack.examples.tests.RunWebDriverCucumberTests@2aece37d</td></tr>
+<tr>
+<td title='com.browserstack.examples.tests.RunWebDriverCucumberTests.feature()'><b>feature</b><br>Test class: com.browserstack.examples.tests.RunWebDriverCucumberTests<br>Test method: Runs Cucumber Feature<br>Parameters: "End to End Scenario", "Optional[End to End Feature]", com.browserstack.examples.core.ManagedWebDriver@669ad6e5</td>
+<td></td>
+<td>43</td>
+<td>com.browserstack.examples.tests.RunWebDriverCucumberTests@2aece37d</td></tr>
+<tr>
+<td title='com.browserstack.examples.tests.RunWebDriverCucumberTests.feature()'><b>feature</b><br>Test class: com.browserstack.examples.tests.RunWebDriverCucumberTests<br>Test method: Runs Cucumber Feature<br>Parameters: "Login as Locked User", "Optional[Login Feature]", com.browserstack.examples.core.ManagedWebDriver@1ce6b125</td>
+<td></td>
+<td>40</td>
+<td>com.browserstack.examples.tests.RunWebDriverCucumberTests@2aece37d</td></tr>
+<tr>
+<td title='com.browserstack.examples.tests.RunWebDriverCucumberTests.feature()'><b>feature</b><br>Test class: com.browserstack.examples.tests.RunWebDriverCucumberTests<br>Test method: Runs Cucumber Feature<br>Parameters: "Login with given 'image_not_loading_user' user", "Optional[Login Feature]", com.browserstack.examples.core.ManagedWebDriver@75d396c1</td>
+<td></td>
+<td>40</td>
+<td>com.browserstack.examples.tests.RunWebDriverCucumberTests@2aece37d</td></tr>
+<tr>
+<td title='com.browserstack.examples.tests.RunWebDriverCucumberTests.feature()'><b>feature</b><br>Test class: com.browserstack.examples.tests.RunWebDriverCucumberTests<br>Test method: Runs Cucumber Feature<br>Parameters: "Login as Locked User", "Optional[Login Feature]", com.browserstack.examples.core.ManagedWebDriver@1bbf1e4a</td>
+<td></td>
+<td>15</td>
+<td>com.browserstack.examples.tests.RunWebDriverCucumberTests@2aece37d</td></tr>
+<tr>
+<td title='com.browserstack.examples.tests.RunWebDriverCucumberTests.feature()'><b>feature</b><br>Test class: com.browserstack.examples.tests.RunWebDriverCucumberTests<br>Test method: Runs Cucumber Feature<br>Parameters: "Login with given 'fav_user' user", "Optional[Login Feature]", com.browserstack.examples.core.ManagedWebDriver@5e3ca699</td>
+<td></td>
+<td>51</td>
+<td>com.browserstack.examples.tests.RunWebDriverCucumberTests@2aece37d</td></tr>
+<tr>
+<td title='com.browserstack.examples.tests.RunWebDriverCucumberTests.feature()'><b>feature</b><br>Test class: com.browserstack.examples.tests.RunWebDriverCucumberTests<br>Test method: Runs Cucumber Feature<br>Parameters: "Login with given 'existing_orders_user' user", "Optional[Login Feature]", com.browserstack.examples.core.ManagedWebDriver@2ce67493</td>
+<td></td>
+<td>24</td>
+<td>com.browserstack.examples.tests.RunWebDriverCucumberTests@2aece37d</td></tr>
+<tr>
+<td title='com.browserstack.examples.tests.RunWebDriverCucumberTests.feature()'><b>feature</b><br>Test class: com.browserstack.examples.tests.RunWebDriverCucumberTests<br>Test method: Runs Cucumber Feature<br>Parameters: "Login as Locked User", "Optional[Login Feature]", com.browserstack.examples.core.ManagedWebDriver@7e9316fb</td>
+<td></td>
+<td>24</td>
+<td>com.browserstack.examples.tests.RunWebDriverCucumberTests@2aece37d</td></tr>
+<tr>
+<td title='com.browserstack.examples.tests.RunWebDriverCucumberTests.feature()'><b>feature</b><br>Test class: com.browserstack.examples.tests.RunWebDriverCucumberTests<br>Test method: Runs Cucumber Feature<br>Parameters: "End to End Scenario", "Optional[End to End Feature]", com.browserstack.examples.core.ManagedWebDriver@2ef58784</td>
+<td></td>
+<td>33</td>
+<td>com.browserstack.examples.tests.RunWebDriverCucumberTests@2aece37d</td></tr>
+<tr>
+<td title='com.browserstack.examples.tests.RunWebDriverCucumberTests.feature()'><b>feature</b><br>Test class: com.browserstack.examples.tests.RunWebDriverCucumberTests<br>Test method: Runs Cucumber Feature<br>Parameters: "Login with given 'image_not_loading_user' user", "Optional[Login Feature]", com.browserstack.examples.core.ManagedWebDriver@182a2039</td>
+<td></td>
+<td>31</td>
+<td>com.browserstack.examples.tests.RunWebDriverCucumberTests@2aece37d</td></tr>
+<tr>
+<td title='com.browserstack.examples.tests.RunWebDriverCucumberTests.feature()'><b>feature</b><br>Test class: com.browserstack.examples.tests.RunWebDriverCucumberTests<br>Test method: Runs Cucumber Feature<br>Parameters: "Login with given 'fav_user' user", "Optional[Login Feature]", com.browserstack.examples.core.ManagedWebDriver@6da4d5a3</td>
+<td></td>
+<td>30</td>
+<td>com.browserstack.examples.tests.RunWebDriverCucumberTests@2aece37d</td></tr>
+</table><p>
+</body>
+</html>

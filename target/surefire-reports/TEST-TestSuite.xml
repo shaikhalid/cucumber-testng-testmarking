@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="105.618" tests="17" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/shaikhalid/Documents/BrowserStack/code/browserstack-examples-cucumber-testng/target/test-classes:/Users/shaikhalid/Documents/BrowserStack/code/browserstack-examples-cucumber-testng/target/classes:/Users/shaikhalid/.m2/repository/io/cucumber/cucumber-junit/6.10.4/cucumber-junit-6.10.4.jar:/Users/shaikhalid/.m2/repository/org/apiguardian/apiguardian-api/1.1.1/apiguardian-api-1.1.1.jar:/Users/shaikhalid/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/Users/shaikhalid/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/shaikhalid/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/Users/shaikhalid/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/Users/shaikhalid/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/Users/shaikhalid/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/Users/shaikhalid/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/Users/shaikhalid/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/Users/shaikhalid/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/Users/shaikhalid/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/Users/shaikhalid/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/Users/shaikhalid/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/Users/shaikhalid/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/Users/shaikhalid/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/shaikhalid/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/Users/shaikhalid/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/shaikhalid/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/shaikhalid/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/shaikhalid/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/shaikhalid/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/shaikhalid/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/Users/shaikhalid/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/Users/shaikhalid/.m2/repository/com/browserstack/browserstack-local-java/1.0.6/browserstack-local-java-1.0.6.jar:/Users/shaikhalid/.m2/repository/commons-io/commons-io/1.3.2/commons-io-1.3.2.jar:/Users/shaikhalid/.m2/repository/org/json/json/20160212/json-20160212.jar:/Users/shaikhalid/.m2/repository/org/apache/commons/commons-lang3/3.11/commons-lang3-3.11.jar:/Users/shaikhalid/.m2/repository/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar:/Users/shaikhalid/.m2/repository/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar:/Users/shaikhalid/.m2/repository/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.jar:/Users/shaikhalid/.m2/repository/org/testng/testng/7.4.0/testng-7.4.0.jar:/Users/shaikhalid/.m2/repository/com/beust/jcommander/1.78/jcommander-1.78.jar:/Users/shaikhalid/.m2/repository/org/webjars/jquery/3.5.1/jquery-3.5.1.jar:/Users/shaikhalid/.m2/repository/io/cucumber/cucumber-java/6.10.4/cucumber-java-6.10.4.jar:/Users/shaikhalid/.m2/repository/io/cucumber/cucumber-core/6.10.4/cucumber-core-6.10.4.jar:/Users/shaikhalid/.m2/repository/io/cucumber/cucumber-gherkin/6.10.4/cucumber-gherkin-6.10.4.jar:/Users/shaikhalid/.m2/repository/io/cucumber/cucumber-gherkin-messages/6.10.4/cucumber-gherkin-messages-6.10.4.jar:/Users/shaikhalid/.m2/repository/io/cucumber/messages/15.0.0/messages-15.0.0.jar:/Users/shaikhalid/.m2/repository/io/cucumber/tag-expressions/3.0.1/tag-expressions-3.0.1.jar:/Users/shaikhalid/.m2/repository/io/cucumber/cucumber-expressions/10.3.0/cucumber-expressions-10.3.0.jar:/Users/shaikhalid/.m2/repository/io/cucumber/datatable/3.5.0/datatable-3.5.0.jar:/Users/shaikhalid/.m2/repository/io/cucumber/cucumber-plugin/6.10.4/cucumber-plugin-6.10.4.jar:/Users/shaikhalid/.m2/repository/io/cucumber/docstring/6.10.4/docstring-6.10.4.jar:/Users/shaikhalid/.m2/repository/io/cucumber/html-formatter/13.0.0/html-formatter-13.0.0.jar:/Users/shaikhalid/.m2/repository/io/cucumber/create-meta/4.0.0/create-meta-4.0.0.jar:/Users/shaikhalid/.m2/repository/io/cucumber/cucumber-picocontainer/6.10.4/cucumber-picocontainer-6.10.4.jar:/Users/shaikhalid/.m2/repository/org/picocontainer/picocontainer/2.15/picocontainer-2.15.jar:/Users/shaikhalid/.m2/repository/io/cucumber/cucumber-testng/6.10.4/cucumber-testng-6.10.4.jar:/Users/shaikhalid/.m2/repository/com/fasterxml/jackson/dataformat/jackson-dataformat-yaml/2.12.2/jackson-dataformat-yaml-2.12.2.jar:/Users/shaikhalid/.m2/repository/org/yaml/snakeyaml/1.27/snakeyaml-1.27.jar:/Users/shaikhalid/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.12.2/jackson-core-2.12.2.jar:/Users/shaikhalid/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.12.2/jackson-databind-2.12.2.jar:/Users/shaikhalid/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.12.2/jackson-annotations-2.12.2.jar:"/>
+    <property name="java.vm.vendor" value="Homebrew"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="user.timezone" value="Asia/Kolkata"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="/usr/local/Cellar/openjdk/17/libexec/openjdk.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/shaikhalid/Documents/BrowserStack/code/browserstack-examples-cucumber-testng/target/surefire/surefirebooter14518882962449093514.jar /Users/shaikhalid/Documents/BrowserStack/code/browserstack-examples-cucumber-testng/target/surefire 2021-11-18T19-22-58_089-jvmRun1 surefire2780298010696054325tmp surefire_018297194603750845741tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/shaikhalid/Documents/BrowserStack/code/browserstack-examples-cucumber-testng/target/test-classes:/Users/shaikhalid/Documents/BrowserStack/code/browserstack-examples-cucumber-testng/target/classes:/Users/shaikhalid/.m2/repository/io/cucumber/cucumber-junit/6.10.4/cucumber-junit-6.10.4.jar:/Users/shaikhalid/.m2/repository/org/apiguardian/apiguardian-api/1.1.1/apiguardian-api-1.1.1.jar:/Users/shaikhalid/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/Users/shaikhalid/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/shaikhalid/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/Users/shaikhalid/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/Users/shaikhalid/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/Users/shaikhalid/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/Users/shaikhalid/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/Users/shaikhalid/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/Users/shaikhalid/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/Users/shaikhalid/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/Users/shaikhalid/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/Users/shaikhalid/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/Users/shaikhalid/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/Users/shaikhalid/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/shaikhalid/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/Users/shaikhalid/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/shaikhalid/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/shaikhalid/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/shaikhalid/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/shaikhalid/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/shaikhalid/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/Users/shaikhalid/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/Users/shaikhalid/.m2/repository/com/browserstack/browserstack-local-java/1.0.6/browserstack-local-java-1.0.6.jar:/Users/shaikhalid/.m2/repository/commons-io/commons-io/1.3.2/commons-io-1.3.2.jar:/Users/shaikhalid/.m2/repository/org/json/json/20160212/json-20160212.jar:/Users/shaikhalid/.m2/repository/org/apache/commons/commons-lang3/3.11/commons-lang3-3.11.jar:/Users/shaikhalid/.m2/repository/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar:/Users/shaikhalid/.m2/repository/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar:/Users/shaikhalid/.m2/repository/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.jar:/Users/shaikhalid/.m2/repository/org/testng/testng/7.4.0/testng-7.4.0.jar:/Users/shaikhalid/.m2/repository/com/beust/jcommander/1.78/jcommander-1.78.jar:/Users/shaikhalid/.m2/repository/org/webjars/jquery/3.5.1/jquery-3.5.1.jar:/Users/shaikhalid/.m2/repository/io/cucumber/cucumber-java/6.10.4/cucumber-java-6.10.4.jar:/Users/shaikhalid/.m2/repository/io/cucumber/cucumber-core/6.10.4/cucumber-core-6.10.4.jar:/Users/shaikhalid/.m2/repository/io/cucumber/cucumber-gherkin/6.10.4/cucumber-gherkin-6.10.4.jar:/Users/shaikhalid/.m2/repository/io/cucumber/cucumber-gherkin-messages/6.10.4/cucumber-gherkin-messages-6.10.4.jar:/Users/shaikhalid/.m2/repository/io/cucumber/messages/15.0.0/messages-15.0.0.jar:/Users/shaikhalid/.m2/repository/io/cucumber/tag-expressions/3.0.1/tag-expressions-3.0.1.jar:/Users/shaikhalid/.m2/repository/io/cucumber/cucumber-expressions/10.3.0/cucumber-expressions-10.3.0.jar:/Users/shaikhalid/.m2/repository/io/cucumber/datatable/3.5.0/datatable-3.5.0.jar:/Users/shaikhalid/.m2/repository/io/cucumber/cucumber-plugin/6.10.4/cucumber-plugin-6.10.4.jar:/Users/shaikhalid/.m2/repository/io/cucumber/docstring/6.10.4/docstring-6.10.4.jar:/Users/shaikhalid/.m2/repository/io/cucumber/html-formatter/13.0.0/html-formatter-13.0.0.jar:/Users/shaikhalid/.m2/repository/io/cucumber/create-meta/4.0.0/create-meta-4.0.0.jar:/Users/shaikhalid/.m2/repository/io/cucumber/cucumber-picocontainer/6.10.4/cucumber-picocontainer-6.10.4.jar:/Users/shaikhalid/.m2/repository/org/picocontainer/picocontainer/2.15/picocontainer-2.15.jar:/Users/shaikhalid/.m2/repository/io/cucumber/cucumber-testng/6.10.4/cucumber-testng-6.10.4.jar:/Users/shaikhalid/.m2/repository/com/fasterxml/jackson/dataformat/jackson-dataformat-yaml/2.12.2/jackson-dataformat-yaml-2.12.2.jar:/Users/shaikhalid/.m2/repository/org/yaml/snakeyaml/1.27/snakeyaml-1.27.jar:/Users/shaikhalid/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.12.2/jackson-core-2.12.2.jar:/Users/shaikhalid/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.12.2/jackson-databind-2.12.2.jar:/Users/shaikhalid/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.12.2/jackson-annotations-2.12.2.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/shaikhalid"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2021-09-14"/>
+    <property name="java.home" value="/usr/local/Cellar/openjdk/17/libexec/openjdk.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/shaikhalid/Documents/BrowserStack/code/browserstack-examples-cucumber-testng"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="/Users/shaikhalid/Documents/BrowserStack/code/browserstack-examples-cucumber-testng/target/surefire/surefirebooter14518882962449093514.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17+0"/>
+    <property name="user.name" value="shaikhalid"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="12.0.1"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Homebrew"/>
+    <property name="localRepository" value="/Users/shaikhalid/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="java.io.tmpdir" value="/var/folders/gj/47khjtps27d9h0lx37msfkpc0000gn/T/"/>
+    <property name="java.version" value="17"/>
+    <property name="user.dir" value="/Users/shaikhalid/Documents/BrowserStack/code/browserstack-examples-cucumber-testng"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/shaikhalid/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Homebrew"/>
+    <property name="java.vm.version" value="17+0"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="feature[&quot;Login with given &apos;fav_user&apos; user&quot;, &quot;Optional[Login Feature]&quot;, com.browserstack.examples.core.ManagedWebDriver@6da4d5a3](1)" classname="com.browserstack.examples.tests.RunWebDriverCucumberTests" time="30.173">
+    <system-out><![CDATA[19:23:01.284 [TestNG-test=Cucumber Tests-1] DEBUG com.browserstack.examples.core.WebDriverFactory - Using capabilities configuration from FILE :: capabilities.yml
+19:23:17.507 [TestNG-test=Cucumber Tests-1] INFO com.browserstack.examples.core.config.LocalFactory - Started BrowserStack Local with identifier oGtwFDKd.
+19:23:17.507 [TestNG-test=Cucumber Tests-1] DEBUG com.browserstack.examples.core.WebDriverFactory - Running tests on 4 active platforms.
+
+@user @examples
+Scenario Outline: Login with given 'fav_user' user &amp#27;[90m# features/login.feature:13&amp#27;[0m
+
+@e2e
+Scenario: End to End Scenario                                                                &amp#27;[90m# features/e2e.feature:4&amp#27;[0m
+
+@user @examples
+Scenario Outline: Login with given 'fav_user' user &amp#27;[90m# features/login.feature:13&amp#27;[0m
+
+@e2e
+Scenario: End to End Scenario                                                                &amp#27;[90m# features/e2e.feature:4&amp#27;[0m
+
+@user @examples
+Scenario Outline: Login with given 'image_not_loading_user' user &amp#27;[90m# features/login.feature:14&amp#27;[0m
+
+@user @examples
+Scenario Outline: Login with given 'image_not_loading_user' user &amp#27;[90m# features/login.feature:14&amp#27;[0m
+
+@user @examples
+Scenario Outline: Login with given 'fav_user' user &amp#27;[90m# features/login.feature:13&amp#27;[0m
+
+@user @examples
+Scenario Outline: Login with given 'fav_user' user &amp#27;[90m# features/login.feature:13&amp#27;[0m
+
+@e2e
+Scenario: End to End Scenario                                                                &amp#27;[90m# features/e2e.feature:4&amp#27;[0m
+
+@e2e
+Scenario: End to End Scenario                                                                &amp#27;[90m# features/e2e.feature:4&amp#27;[0m
+khalidshaikh_Cc8Pao:hxV3ZVmYkXGJXRbiyrvW
+khalidshaikh_Cc8Pao:hxV3ZVmYkXGJXRbiyrvW
+khalidshaikh_Cc8Pao:hxV3ZVmYkXGJXRbiyrvW
+khalidshaikh_Cc8Pao:hxV3ZVmYkXGJXRbiyrvW
+khalidshaikh_Cc8Pao:hxV3ZVmYkXGJXRbiyrvW
+khalidshaikh_Cc8Pao:hxV3ZVmYkXGJXRbiyrvW
+khalidshaikh_Cc8Pao:hxV3ZVmYkXGJXRbiyrvW
+khalidshaikh_Cc8Pao:hxV3ZVmYkXGJXRbiyrvW
+khalidshaikh_Cc8Pao:hxV3ZVmYkXGJXRbiyrvW
+khalidshaikh_Cc8Pao:hxV3ZVmYkXGJXRbiyrvW
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI navigate to website&amp#27;[0m                                                                &amp#27;[90m# com.browserstack.examples.stepdefs.CommonSteps.iNavigateToWebsite()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI SignIn as &amp#27;[0m&amp#27;[32m&amp#27;[1m"fav_user"&amp#27;[0m&amp#27;[32m with &amp#27;[0m&amp#27;[32m&amp#27;[1m"testingisfun99"&amp#27;[0m&amp#27;[32m password&amp#27;[0m                                  &amp#27;[90m# com.browserstack.examples.stepdefs.LoginPageSteps.iSignInAsWithPassword(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI add two products to cart&amp#27;[0m                                                             &amp#27;[90m# com.browserstack.examples.stepdefs.HomePageSteps.iAddProductsToCart()&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI navigate to website&amp#27;[0m                      &amp#27;[90m# com.browserstack.examples.stepdefs.CommonSteps.iNavigateToWebsite()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI click on Buy Button&amp#27;[0m                                                                  &amp#27;[90m# com.browserstack.examples.stepdefs.HomePageSteps.iClickOnBuyButton()&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI navigate to website&amp#27;[0m                      &amp#27;[90m# com.browserstack.examples.stepdefs.CommonSteps.iNavigateToWebsite()&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI navigate to website&amp#27;[0m                                    &amp#27;[90m# com.browserstack.examples.stepdefs.CommonSteps.iNavigateToWebsite()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI click on &amp#27;[0m&amp#27;[32m&amp#27;[1m"Sign In"&amp#27;[0m&amp#27;[32m link&amp#27;[0m                    &amp#27;[90m# com.browserstack.examples.stepdefs.CommonSteps.iClickOnLink(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI type &amp#27;[0m&amp#27;[32m&amp#27;[1m'fav_user'&amp#27;[0m&amp#27;[32m in &amp#27;[0m&amp#27;[32m&amp#27;[1m"username"&amp#27;[0m              &amp#27;[90m# com.browserstack.examples.stepdefs.CommonSteps.iTypeIn(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI enter shipping details &amp#27;[0m&amp#27;[32m&amp#27;[1m"first"&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m"last"&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m"test address"&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m"test province"&amp#27;[0m&amp#27;[32m and &amp#27;[0m&amp#27;[32m&amp#27;[1m"123456"&amp#27;[0m &amp#27;[90m# com.browserstack.examples.stepdefs.CheckoutPageSteps.iEnterShippingDetailsAnd(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI click on &amp#27;[0m&amp#27;[32m&amp#27;[1m"Sign In"&amp#27;[0m&amp#27;[32m link&amp#27;[0m                    &amp#27;[90m# com.browserstack.examples.stepdefs.CommonSteps.iClickOnLink(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI click on &amp#27;[0m&amp#27;[32m&amp#27;[1m"Sign In"&amp#27;[0m&amp#27;[32m link&amp#27;[0m                                  &amp#27;[90m# com.browserstack.examples.stepdefs.CommonSteps.iClickOnLink(java.lang.String)&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI navigate to website&amp#27;[0m                      &amp#27;[90m# com.browserstack.examples.stepdefs.CommonSteps.iNavigateToWebsite()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI type &amp#27;[0m&amp#27;[32m&amp#27;[1m'testingisfun99'&amp#27;[0m&amp#27;[32m in &amp#27;[0m&amp#27;[32m&amp#27;[1m"password"&amp#27;[0m        &amp#27;[90m# com.browserstack.examples.stepdefs.CommonSteps.iTypeIn(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI press Log In Button&amp#27;[0m                        &amp#27;[90m# com.browserstack.examples.stepdefs.LoginPageSteps.iPressLogin()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI click on Checkout Button&amp#27;[0m                                                             &amp#27;[90m# com.browserstack.examples.stepdefs.CheckoutPageSteps.iClickOnCheckoutButton()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mI should see user &amp#27;[0m&amp#27;[32m&amp#27;[1m'fav_user'&amp#27;[0m&amp#27;[32m logged in&amp#27;[0m      &amp#27;[90m# com.browserstack.examples.stepdefs.HomePageSteps.iShouldUserLoggedIn(java.lang.String)&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI navigate to website&amp#27;[0m                                                                &amp#27;[90m# com.browserstack.examples.stepdefs.CommonSteps.iNavigateToWebsite()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI click on &amp#27;[0m&amp#27;[32m&amp#27;[1m"Orders"&amp#27;[0m&amp#27;[32m link&amp#27;[0m                                                               &amp#27;[90m# com.browserstack.examples.stepdefs.CommonSteps.iClickOnLink(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI click on &amp#27;[0m&amp#27;[32m&amp#27;[1m"Sign In"&amp#27;[0m&amp#27;[32m link&amp#27;[0m                    &amp#27;[90m# com.browserstack.examples.stepdefs.CommonSteps.iClickOnLink(java.lang.String)&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Nov 18, 2021 7:23:26 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Nov 18, 2021 7:23:30 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+Nov 18, 2021 7:23:31 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+Nov 18, 2021 7:23:36 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Nov 18, 2021 7:23:37 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Nov 18, 2021 7:23:38 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Nov 18, 2021 7:23:42 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Nov 18, 2021 7:23:45 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+]]></system-err>
+  </testcase>
+  <testcase name="feature[&quot;End to End Scenario&quot;, &quot;Optional[End to End Feature]&quot;, com.browserstack.examples.core.ManagedWebDriver@2ef58784](2)" classname="com.browserstack.examples.tests.RunWebDriverCucumberTests" time="3.224">
+    <system-out><![CDATA[
+@user @examples
+Scenario Outline: Login with given 'image_not_loading_user' user &amp#27;[90m# features/login.feature:14&amp#27;[0m
+khalidshaikh_Cc8Pao:hxV3ZVmYkXGJXRbiyrvW
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI navigate to website&amp#27;[0m                                    &amp#27;[90m# com.browserstack.examples.stepdefs.CommonSteps.iNavigateToWebsite()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mI should see elements in list&amp#27;[0m                                                         &amp#27;[90m# com.browserstack.examples.stepdefs.OrderPageSteps.iShouldSeeElementsInList()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI type &amp#27;[0m&amp#27;[32m&amp#27;[1m'fav_user'&amp#27;[0m&amp#27;[32m in &amp#27;[0m&amp#27;[32m&amp#27;[1m"username"&amp#27;[0m              &amp#27;[90m# com.browserstack.examples.stepdefs.CommonSteps.iTypeIn(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI click on &amp#27;[0m&amp#27;[32m&amp#27;[1m"Sign In"&amp#27;[0m&amp#27;[32m link&amp#27;[0m                                  &amp#27;[90m# com.browserstack.examples.stepdefs.CommonSteps.iClickOnLink(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI type &amp#27;[0m&amp#27;[32m&amp#27;[1m'fav_user'&amp#27;[0m&amp#27;[32m in &amp#27;[0m&amp#27;[32m&amp#27;[1m"username"&amp#27;[0m              &amp#27;[90m# com.browserstack.examples.stepdefs.CommonSteps.iTypeIn(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI type &amp#27;[0m&amp#27;[32m&amp#27;[1m'image_not_loading_user'&amp#27;[0m&amp#27;[32m in &amp#27;[0m&amp#27;[32m&amp#27;[1m"username"&amp#27;[0m              &amp#27;[90m# com.browserstack.examples.stepdefs.CommonSteps.iTypeIn(java.lang.String,java.lang.String)&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Nov 18, 2021 7:23:48 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+]]></system-err>
+  </testcase>
+  <testcase name="feature[&quot;Login with given &apos;fav_user&apos; user&quot;, &quot;Optional[Login Feature]&quot;, com.browserstack.examples.core.ManagedWebDriver@3e5dbe77](3)" classname="com.browserstack.examples.tests.RunWebDriverCucumberTests" time="6.097">
+    <system-out><![CDATA[
+@user @examples
+Scenario Outline: Login with given 'image_not_loading_user' user &amp#27;[90m# features/login.feature:14&amp#27;[0m
+khalidshaikh_Cc8Pao:hxV3ZVmYkXGJXRbiyrvW
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI SignIn as &amp#27;[0m&amp#27;[32m&amp#27;[1m"fav_user"&amp#27;[0m&amp#27;[32m with &amp#27;[0m&amp#27;[32m&amp#27;[1m"testingisfun99"&amp#27;[0m&amp#27;[32m password&amp#27;[0m                                  &amp#27;[90m# com.browserstack.examples.stepdefs.LoginPageSteps.iSignInAsWithPassword(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI type &amp#27;[0m&amp#27;[32m&amp#27;[1m'image_not_loading_user'&amp#27;[0m&amp#27;[32m in &amp#27;[0m&amp#27;[32m&amp#27;[1m"username"&amp#27;[0m              &amp#27;[90m# com.browserstack.examples.stepdefs.CommonSteps.iTypeIn(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI navigate to website&amp#27;[0m                      &amp#27;[90m# com.browserstack.examples.stepdefs.CommonSteps.iNavigateToWebsite()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI add two products to cart&amp#27;[0m                                                             &amp#27;[90m# com.browserstack.examples.stepdefs.HomePageSteps.iAddProductsToCart()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI type &amp#27;[0m&amp#27;[32m&amp#27;[1m'testingisfun99'&amp#27;[0m&amp#27;[32m in &amp#27;[0m&amp#27;[32m&amp#27;[1m"password"&amp#27;[0m        &amp#27;[90m# com.browserstack.examples.stepdefs.CommonSteps.iTypeIn(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI type &amp#27;[0m&amp#27;[32m&amp#27;[1m'testingisfun99'&amp#27;[0m&amp#27;[32m in &amp#27;[0m&amp#27;[32m&amp#27;[1m"password"&amp#27;[0m        &amp#27;[90m# com.browserstack.examples.stepdefs.CommonSteps.iTypeIn(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI click on Buy Button&amp#27;[0m                                                                  &amp#27;[90m# com.browserstack.examples.stepdefs.HomePageSteps.iClickOnBuyButton()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI press Log In Button&amp#27;[0m                        &amp#27;[90m# com.browserstack.examples.stepdefs.LoginPageSteps.iPressLogin()&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI navigate to website&amp#27;[0m                                                                &amp#27;[90m# com.browserstack.examples.stepdefs.CommonSteps.iNavigateToWebsite()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI type &amp#27;[0m&amp#27;[32m&amp#27;[1m'testingisfun99'&amp#27;[0m&amp#27;[32m in &amp#27;[0m&amp#27;[32m&amp#27;[1m"password"&amp#27;[0m                      &amp#27;[90m# com.browserstack.examples.stepdefs.CommonSteps.iTypeIn(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI press Log In Button&amp#27;[0m                                      &amp#27;[90m# com.browserstack.examples.stepdefs.LoginPageSteps.iPressLogin()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI click on &amp#27;[0m&amp#27;[32m&amp#27;[1m"Sign In"&amp#27;[0m&amp#27;[32m link&amp#27;[0m                    &amp#27;[90m# com.browserstack.examples.stepdefs.CommonSteps.iClickOnLink(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI type &amp#27;[0m&amp#27;[32m&amp#27;[1m'testingisfun99'&amp#27;[0m&amp#27;[32m in &amp#27;[0m&amp#27;[32m&amp#27;[1m"password"&amp#27;[0m                      &amp#27;[90m# com.browserstack.examples.stepdefs.CommonSteps.iTypeIn(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mI should see user &amp#27;[0m&amp#27;[32m&amp#27;[1m'fav_user'&amp#27;[0m&amp#27;[32m logged in&amp#27;[0m      &amp#27;[90m# com.browserstack.examples.stepdefs.HomePageSteps.iShouldUserLoggedIn(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI enter shipping details &amp#27;[0m&amp#27;[32m&amp#27;[1m"first"&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m"last"&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m"test address"&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m"test province"&amp#27;[0m&amp#27;[32m and &amp#27;[0m&amp#27;[32m&amp#27;[1m"123456"&amp#27;[0m &amp#27;[90m# com.browserstack.examples.stepdefs.CheckoutPageSteps.iEnterShippingDetailsAnd(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI press Log In Button&amp#27;[0m                        &amp#27;[90m# com.browserstack.examples.stepdefs.LoginPageSteps.iPressLogin()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mI should see user &amp#27;[0m&amp#27;[32m&amp#27;[1m'image_not_loading_user'&amp#27;[0m&amp#27;[32m logged in&amp#27;[0m      &amp#27;[90m# com.browserstack.examples.stepdefs.HomePageSteps.iShouldUserLoggedIn(java.lang.String)&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Nov 18, 2021 7:23:55 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="feature[&quot;Login with given &apos;image_not_loading_user&apos; user&quot;, &quot;Optional[Login Feature]&quot;, com.browserstack.examples.core.ManagedWebDriver@75d396c1](4)" classname="com.browserstack.examples.tests.RunWebDriverCucumberTests" time="1.315">
+    <system-out><![CDATA[
+@user @examples
+Scenario Outline: Login with given 'existing_orders_user' user &amp#27;[90m# features/login.feature:15&amp#27;[0m
+khalidshaikh_Cc8Pao:hxV3ZVmYkXGJXRbiyrvW
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI press Log In Button&amp#27;[0m                                      &amp#27;[90m# com.browserstack.examples.stepdefs.LoginPageSteps.iPressLogin()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI click on Checkout Button&amp#27;[0m                                                             &amp#27;[90m# com.browserstack.examples.stepdefs.CheckoutPageSteps.iClickOnCheckoutButton()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI click on &amp#27;[0m&amp#27;[32m&amp#27;[1m"Orders"&amp#27;[0m&amp#27;[32m link&amp#27;[0m                                                               &amp#27;[90m# com.browserstack.examples.stepdefs.CommonSteps.iClickOnLink(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="feature[&quot;End to End Scenario&quot;, &quot;Optional[End to End Feature]&quot;, com.browserstack.examples.core.ManagedWebDriver@669ad6e5](5)" classname="com.browserstack.examples.tests.RunWebDriverCucumberTests" time="3.08">
+    <system-out><![CDATA[
+@user @examples
+Scenario Outline: Login with given 'existing_orders_user' user &amp#27;[90m# features/login.feature:15&amp#27;[0m
+khalidshaikh_Cc8Pao:hxV3ZVmYkXGJXRbiyrvW
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mI should see elements in list&amp#27;[0m                                                         &amp#27;[90m# com.browserstack.examples.stepdefs.OrderPageSteps.iShouldSeeElementsInList()&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI navigate to website&amp#27;[0m                                    &amp#27;[90m# com.browserstack.examples.stepdefs.CommonSteps.iNavigateToWebsite()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI type &amp#27;[0m&amp#27;[32m&amp#27;[1m'fav_user'&amp#27;[0m&amp#27;[32m in &amp#27;[0m&amp#27;[32m&amp#27;[1m"username"&amp#27;[0m              &amp#27;[90m# com.browserstack.examples.stepdefs.CommonSteps.iTypeIn(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mI should see user &amp#27;[0m&amp#27;[32m&amp#27;[1m'fav_user'&amp#27;[0m&amp#27;[32m logged in&amp#27;[0m      &amp#27;[90m# com.browserstack.examples.stepdefs.HomePageSteps.iShouldUserLoggedIn(java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mI should see user &amp#27;[0m&amp#27;[32m&amp#27;[1m'image_not_loading_user'&amp#27;[0m&amp#27;[32m logged in&amp#27;[0m      &amp#27;[90m# com.browserstack.examples.stepdefs.HomePageSteps.iShouldUserLoggedIn(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI click on &amp#27;[0m&amp#27;[32m&amp#27;[1m"Sign In"&amp#27;[0m&amp#27;[32m link&amp#27;[0m                                  &amp#27;[90m# com.browserstack.examples.stepdefs.CommonSteps.iClickOnLink(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="feature[&quot;Login with given &apos;image_not_loading_user&apos; user&quot;, &quot;Optional[Login Feature]&quot;, com.browserstack.examples.core.ManagedWebDriver@3dda681e](6)" classname="com.browserstack.examples.tests.RunWebDriverCucumberTests" time="0.766">
+    <system-out><![CDATA[
+@user @examples
+Scenario Outline: Login with given 'existing_orders_user' user &amp#27;[90m# features/login.feature:15&amp#27;[0m
+khalidshaikh_Cc8Pao:hxV3ZVmYkXGJXRbiyrvW
+]]></system-out>
+    <system-err><![CDATA[Nov 18, 2021 7:24:02 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+]]></system-err>
+  </testcase>
+  <testcase name="feature[&quot;Login with given &apos;fav_user&apos; user&quot;, &quot;Optional[Login Feature]&quot;, com.browserstack.examples.core.ManagedWebDriver@a315cc](7)" classname="com.browserstack.examples.tests.RunWebDriverCucumberTests" time="0.063">
+    <system-out><![CDATA[
+@user @examples
+Scenario Outline: Login with given 'existing_orders_user' user &amp#27;[90m# features/login.feature:15&amp#27;[0m
+khalidshaikh_Cc8Pao:hxV3ZVmYkXGJXRbiyrvW
+]]></system-out>
+  </testcase>
+  <testcase name="feature[&quot;Login with given &apos;fav_user&apos; user&quot;, &quot;Optional[Login Feature]&quot;, com.browserstack.examples.core.ManagedWebDriver@5e3ca699](8)" classname="com.browserstack.examples.tests.RunWebDriverCucumberTests" time="6.493">
+    <system-out><![CDATA[
+@user
+Scenario: Login as Locked User                                             &amp#27;[90m# features/login.feature:18&amp#27;[0m
+khalidshaikh_Cc8Pao:hxV3ZVmYkXGJXRbiyrvW
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI type &amp#27;[0m&amp#27;[32m&amp#27;[1m'testingisfun99'&amp#27;[0m&amp#27;[32m in &amp#27;[0m&amp#27;[32m&amp#27;[1m"password"&amp#27;[0m        &amp#27;[90m# com.browserstack.examples.stepdefs.CommonSteps.iTypeIn(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI type &amp#27;[0m&amp#27;[32m&amp#27;[1m'image_not_loading_user'&amp#27;[0m&amp#27;[32m in &amp#27;[0m&amp#27;[32m&amp#27;[1m"username"&amp#27;[0m              &amp#27;[90m# com.browserstack.examples.stepdefs.CommonSteps.iTypeIn(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI press Log In Button&amp#27;[0m                        &amp#27;[90m# com.browserstack.examples.stepdefs.LoginPageSteps.iPressLogin()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI type &amp#27;[0m&amp#27;[32m&amp#27;[1m'testingisfun99'&amp#27;[0m&amp#27;[32m in &amp#27;[0m&amp#27;[32m&amp#27;[1m"password"&amp#27;[0m                      &amp#27;[90m# com.browserstack.examples.stepdefs.CommonSteps.iTypeIn(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI press Log In Button&amp#27;[0m                                      &amp#27;[90m# com.browserstack.examples.stepdefs.LoginPageSteps.iPressLogin()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mI should see user &amp#27;[0m&amp#27;[32m&amp#27;[1m'fav_user'&amp#27;[0m&amp#27;[32m logged in&amp#27;[0m      &amp#27;[90m# com.browserstack.examples.stepdefs.HomePageSteps.iShouldUserLoggedIn(java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mI should see user &amp#27;[0m&amp#27;[32m&amp#27;[1m'image_not_loading_user'&amp#27;[0m&amp#27;[32m logged in&amp#27;[0m      &amp#27;[90m# com.browserstack.examples.stepdefs.HomePageSteps.iShouldUserLoggedIn(java.lang.String)&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Nov 18, 2021 7:24:04 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+Nov 18, 2021 7:24:06 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="feature[&quot;Login with given &apos;image_not_loading_user&apos; user&quot;, &quot;Optional[Login Feature]&quot;, com.browserstack.examples.core.ManagedWebDriver@659df2cd](9)" classname="com.browserstack.examples.tests.RunWebDriverCucumberTests" time="0.577">
+    <system-out><![CDATA[
+@user
+Scenario: Login as Locked User                                             &amp#27;[90m# features/login.feature:18&amp#27;[0m
+khalidshaikh_Cc8Pao:hxV3ZVmYkXGJXRbiyrvW
+]]></system-out>
+  </testcase>
+  <testcase name="feature[&quot;Login with given &apos;image_not_loading_user&apos; user&quot;, &quot;Optional[Login Feature]&quot;, com.browserstack.examples.core.ManagedWebDriver@182a2039](10)" classname="com.browserstack.examples.tests.RunWebDriverCucumberTests" time="13.459">
+    <system-out><![CDATA[
+@user
+Scenario: Login as Locked User                                             &amp#27;[90m# features/login.feature:18&amp#27;[0m
+khalidshaikh_Cc8Pao:hxV3ZVmYkXGJXRbiyrvW
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI navigate to website&amp#27;[0m                                                                &amp#27;[90m# com.browserstack.examples.stepdefs.CommonSteps.iNavigateToWebsite()&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI navigate to website&amp#27;[0m                                    &amp#27;[90m# com.browserstack.examples.stepdefs.CommonSteps.iNavigateToWebsite()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI click on &amp#27;[0m&amp#27;[32m&amp#27;[1m"Sign In"&amp#27;[0m&amp#27;[32m link&amp#27;[0m                                  &amp#27;[90m# com.browserstack.examples.stepdefs.CommonSteps.iClickOnLink(java.lang.String)&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI navigate to website&amp#27;[0m                                  &amp#27;[90m# com.browserstack.examples.stepdefs.CommonSteps.iNavigateToWebsite()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI SignIn as &amp#27;[0m&amp#27;[32m&amp#27;[1m"fav_user"&amp#27;[0m&amp#27;[32m with &amp#27;[0m&amp#27;[32m&amp#27;[1m"testingisfun99"&amp#27;[0m&amp#27;[32m password&amp#27;[0m                                  &amp#27;[90m# com.browserstack.examples.stepdefs.LoginPageSteps.iSignInAsWithPassword(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI click on &amp#27;[0m&amp#27;[32m&amp#27;[1m"Sign In"&amp#27;[0m&amp#27;[32m link&amp#27;[0m                                &amp#27;[90m# com.browserstack.examples.stepdefs.CommonSteps.iClickOnLink(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI type &amp#27;[0m&amp#27;[32m&amp#27;[1m'image_not_loading_user'&amp#27;[0m&amp#27;[32m in &amp#27;[0m&amp#27;[32m&amp#27;[1m"username"&amp#27;[0m              &amp#27;[90m# com.browserstack.examples.stepdefs.CommonSteps.iTypeIn(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI navigate to website&amp#27;[0m                                              &amp#27;[90m# com.browserstack.examples.stepdefs.CommonSteps.iNavigateToWebsite()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI type &amp#27;[0m&amp#27;[32m&amp#27;[1m'existing_orders_user'&amp#27;[0m&amp#27;[32m in &amp#27;[0m&amp#27;[32m&amp#27;[1m"username"&amp#27;[0m              &amp#27;[90m# com.browserstack.examples.stepdefs.CommonSteps.iTypeIn(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI click on &amp#27;[0m&amp#27;[32m&amp#27;[1m"Sign In"&amp#27;[0m&amp#27;[32m link&amp#27;[0m                                            &amp#27;[90m# com.browserstack.examples.stepdefs.CommonSteps.iClickOnLink(java.lang.String)&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI navigate to website&amp#27;[0m                                  &amp#27;[90m# com.browserstack.examples.stepdefs.CommonSteps.iNavigateToWebsite()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI type &amp#27;[0m&amp#27;[32m&amp#27;[1m'testingisfun99'&amp#27;[0m&amp#27;[32m in &amp#27;[0m&amp#27;[32m&amp#27;[1m"password"&amp#27;[0m                      &amp#27;[90m# com.browserstack.examples.stepdefs.CommonSteps.iTypeIn(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI type &amp#27;[0m&amp#27;[32m&amp#27;[1m'testingisfun99'&amp#27;[0m&amp#27;[32m in &amp#27;[0m&amp#27;[32m&amp#27;[1m"password"&amp#27;[0m                    &amp#27;[90m# com.browserstack.examples.stepdefs.CommonSteps.iTypeIn(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI click on &amp#27;[0m&amp#27;[32m&amp#27;[1m"Sign In"&amp#27;[0m&amp#27;[32m link&amp#27;[0m                                &amp#27;[90m# com.browserstack.examples.stepdefs.CommonSteps.iClickOnLink(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI press Log In Button&amp#27;[0m                                    &amp#27;[90m# com.browserstack.examples.stepdefs.LoginPageSteps.iPressLogin()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI press Log In Button&amp#27;[0m                                      &amp#27;[90m# com.browserstack.examples.stepdefs.LoginPageSteps.iPressLogin()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI type &amp#27;[0m&amp#27;[32m&amp#27;[1m"locked_user"&amp#27;[0m&amp#27;[32m in &amp#27;[0m&amp#27;[32m&amp#27;[1m"username"&amp#27;[0m                                   &amp#27;[90m# com.browserstack.examples.stepdefs.CommonSteps.iTypeIn(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI navigate to website&amp#27;[0m                                  &amp#27;[90m# com.browserstack.examples.stepdefs.CommonSteps.iNavigateToWebsite()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI type &amp#27;[0m&amp#27;[32m&amp#27;[1m"testingisfun99"&amp#27;[0m&amp#27;[32m in &amp#27;[0m&amp#27;[32m&amp#27;[1m"password"&amp#27;[0m                                &amp#27;[90m# com.browserstack.examples.stepdefs.CommonSteps.iTypeIn(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mI should see user &amp#27;[0m&amp#27;[32m&amp#27;[1m'image_not_loading_user'&amp#27;[0m&amp#27;[32m logged in&amp#27;[0m      &amp#27;[90m# com.browserstack.examples.stepdefs.HomePageSteps.iShouldUserLoggedIn(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI press Log In Button&amp#27;[0m                                                &amp#27;[90m# com.browserstack.examples.stepdefs.LoginPageSteps.iPressLogin()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mI should see user &amp#27;[0m&amp#27;[32m&amp#27;[1m'existing_orders_user'&amp#27;[0m&amp#27;[32m logged in&amp#27;[0m      &amp#27;[90m# com.browserstack.examples.stepdefs.HomePageSteps.iShouldUserLoggedIn(java.lang.String)&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI navigate to website&amp#27;[0m                                  &amp#27;[90m# com.browserstack.examples.stepdefs.CommonSteps.iNavigateToWebsite()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI type &amp#27;[0m&amp#27;[32m&amp#27;[1m'existing_orders_user'&amp#27;[0m&amp#27;[32m in &amp#27;[0m&amp#27;[32m&amp#27;[1m"username"&amp#27;[0m              &amp#27;[90m# com.browserstack.examples.stepdefs.CommonSteps.iTypeIn(java.lang.String,java.lang.String)&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Nov 18, 2021 7:24:12 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+Nov 18, 2021 7:24:13 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Nov 18, 2021 7:24:13 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+Nov 18, 2021 7:24:14 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Nov 18, 2021 7:24:15 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Nov 18, 2021 7:24:16 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+]]></system-err>
+  </testcase>
+  <testcase name="feature[&quot;Login with given &apos;existing_orders_user&apos; user&quot;, &quot;Optional[Login Feature]&quot;, com.browserstack.examples.core.ManagedWebDriver@2ce67493](11)" classname="com.browserstack.examples.tests.RunWebDriverCucumberTests" time="0.217">
+    <system-out><![CDATA[
+@user
+Scenario: Login as Locked User                                             &amp#27;[90m# features/login.feature:18&amp#27;[0m
+khalidshaikh_Cc8Pao:hxV3ZVmYkXGJXRbiyrvW
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI navigate to website&amp#27;[0m                                              &amp#27;[90m# com.browserstack.examples.stepdefs.CommonSteps.iNavigateToWebsite()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="feature[&quot;Login as Locked User&quot;, &quot;Optional[Login Feature]&quot;, com.browserstack.examples.core.ManagedWebDriver@1bbf1e4a](12)" classname="com.browserstack.examples.tests.RunWebDriverCucumberTests" time="1.539">
+    <system-out><![CDATA[
+@offers
+Scenario: Offers for Mumbai location                        &amp#27;[90m# features/offers.feature:4&amp#27;[0m
+khalidshaikh_Cc8Pao:hxV3ZVmYkXGJXRbiyrvW
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI click on &amp#27;[0m&amp#27;[32m&amp#27;[1m"Sign In"&amp#27;[0m&amp#27;[32m link&amp#27;[0m                                &amp#27;[90m# com.browserstack.examples.stepdefs.CommonSteps.iClickOnLink(java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mI should see &amp#27;[0m&amp#27;[32m&amp#27;[1m"Your account has been locked."&amp#27;[0m&amp#27;[32m as Login Error Message&amp#27;[0m &amp#27;[90m# com.browserstack.examples.stepdefs.LoginPageSteps.iShouldSeeAsLoginErrorMessage(java.lang.String)&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI navigate to website&amp#27;[0m                                              &amp#27;[90m# com.browserstack.examples.stepdefs.CommonSteps.iNavigateToWebsite()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="feature[&quot;Login with given &apos;existing_orders_user&apos; user&quot;, &quot;Optional[Login Feature]&quot;, com.browserstack.examples.core.ManagedWebDriver@2f5036e8](13)" classname="com.browserstack.examples.tests.RunWebDriverCucumberTests" time="4.069">
+    <system-out><![CDATA[
+@offers
+Scenario: Offers for Mumbai location                        &amp#27;[90m# features/offers.feature:4&amp#27;[0m
+khalidshaikh_Cc8Pao:hxV3ZVmYkXGJXRbiyrvW
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI click on &amp#27;[0m&amp#27;[32m&amp#27;[1m"Sign In"&amp#27;[0m&amp#27;[32m link&amp#27;[0m                                            &amp#27;[90m# com.browserstack.examples.stepdefs.CommonSteps.iClickOnLink(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI click on &amp#27;[0m&amp#27;[32m&amp#27;[1m"Sign In"&amp#27;[0m&amp#27;[32m link&amp#27;[0m                                &amp#27;[90m# com.browserstack.examples.stepdefs.CommonSteps.iClickOnLink(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI type &amp#27;[0m&amp#27;[32m&amp#27;[1m'testingisfun99'&amp#27;[0m&amp#27;[32m in &amp#27;[0m&amp#27;[32m&amp#27;[1m"password"&amp#27;[0m                    &amp#27;[90m# com.browserstack.examples.stepdefs.CommonSteps.iTypeIn(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI press Log In Button&amp#27;[0m                                    &amp#27;[90m# com.browserstack.examples.stepdefs.LoginPageSteps.iPressLogin()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI add two products to cart&amp#27;[0m                                                             &amp#27;[90m# com.browserstack.examples.stepdefs.HomePageSteps.iAddProductsToCart()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI click on &amp#27;[0m&amp#27;[32m&amp#27;[1m"Sign In"&amp#27;[0m&amp#27;[32m link&amp#27;[0m                                            &amp#27;[90m# com.browserstack.examples.stepdefs.CommonSteps.iClickOnLink(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI type &amp#27;[0m&amp#27;[32m&amp#27;[1m"locked_user"&amp#27;[0m&amp#27;[32m in &amp#27;[0m&amp#27;[32m&amp#27;[1m"username"&amp#27;[0m                                   &amp#27;[90m# com.browserstack.examples.stepdefs.CommonSteps.iTypeIn(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mI should see user &amp#27;[0m&amp#27;[32m&amp#27;[1m'existing_orders_user'&amp#27;[0m&amp#27;[32m logged in&amp#27;[0m      &amp#27;[90m# com.browserstack.examples.stepdefs.HomePageSteps.iShouldUserLoggedIn(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI type &amp#27;[0m&amp#27;[32m&amp#27;[1m'existing_orders_user'&amp#27;[0m&amp#27;[32m in &amp#27;[0m&amp#27;[32m&amp#27;[1m"username"&amp#27;[0m              &amp#27;[90m# com.browserstack.examples.stepdefs.CommonSteps.iTypeIn(java.lang.String,java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="feature[&quot;Login as Locked User&quot;, &quot;Optional[Login Feature]&quot;, com.browserstack.examples.core.ManagedWebDriver@7e9316fb](14)" classname="com.browserstack.examples.tests.RunWebDriverCucumberTests" time="4.587">
+    <system-out><![CDATA[
+@offers
+Scenario: Offers for Mumbai location                        &amp#27;[90m# features/offers.feature:4&amp#27;[0m
+khalidshaikh_Cc8Pao:hxV3ZVmYkXGJXRbiyrvW
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI SignIn as &amp#27;[0m&amp#27;[32m&amp#27;[1m"fav_user"&amp#27;[0m&amp#27;[32m with &amp#27;[0m&amp#27;[32m&amp#27;[1m"testingisfun99"&amp#27;[0m&amp#27;[32m password&amp#27;[0m                                  &amp#27;[90m# com.browserstack.examples.stepdefs.LoginPageSteps.iSignInAsWithPassword(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI type &amp#27;[0m&amp#27;[32m&amp#27;[1m"testingisfun99"&amp#27;[0m&amp#27;[32m in &amp#27;[0m&amp#27;[32m&amp#27;[1m"password"&amp#27;[0m                                &amp#27;[90m# com.browserstack.examples.stepdefs.CommonSteps.iTypeIn(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI press Log In Button&amp#27;[0m                                                &amp#27;[90m# com.browserstack.examples.stepdefs.LoginPageSteps.iPressLogin()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI click on Buy Button&amp#27;[0m                                                                  &amp#27;[90m# com.browserstack.examples.stepdefs.HomePageSteps.iClickOnBuyButton()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI type &amp#27;[0m&amp#27;[32m&amp#27;[1m'existing_orders_user'&amp#27;[0m&amp#27;[32m in &amp#27;[0m&amp#27;[32m&amp#27;[1m"username"&amp#27;[0m              &amp#27;[90m# com.browserstack.examples.stepdefs.CommonSteps.iTypeIn(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mI should see &amp#27;[0m&amp#27;[32m&amp#27;[1m"Your account has been locked."&amp#27;[0m&amp#27;[32m as Login Error Message&amp#27;[0m &amp#27;[90m# com.browserstack.examples.stepdefs.LoginPageSteps.iShouldSeeAsLoginErrorMessage(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI type &amp#27;[0m&amp#27;[32m&amp#27;[1m'testingisfun99'&amp#27;[0m&amp#27;[32m in &amp#27;[0m&amp#27;[32m&amp#27;[1m"password"&amp#27;[0m                    &amp#27;[90m# com.browserstack.examples.stepdefs.CommonSteps.iTypeIn(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI type &amp#27;[0m&amp#27;[32m&amp#27;[1m"locked_user"&amp#27;[0m&amp#27;[32m in &amp#27;[0m&amp#27;[32m&amp#27;[1m"username"&amp#27;[0m                                   &amp#27;[90m# com.browserstack.examples.stepdefs.CommonSteps.iTypeIn(java.lang.String,java.lang.String)&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Nov 18, 2021 7:24:32 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+Nov 18, 2021 7:24:33 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="feature[&quot;Login with given &apos;existing_orders_user&apos; user&quot;, &quot;Optional[Login Feature]&quot;, com.browserstack.examples.core.ManagedWebDriver@349d154e](15)" classname="com.browserstack.examples.tests.RunWebDriverCucumberTests" time="4.1">
+    <system-out><![CDATA[
+@offers
+Scenario: Offers for Mumbai location                        &amp#27;[90m# features/offers.feature:4&amp#27;[0m
+khalidshaikh_Cc8Pao:hxV3ZVmYkXGJXRbiyrvW
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI press Log In Button&amp#27;[0m                                    &amp#27;[90m# com.browserstack.examples.stepdefs.LoginPageSteps.iPressLogin()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI type &amp#27;[0m&amp#27;[32m&amp#27;[1m'testingisfun99'&amp#27;[0m&amp#27;[32m in &amp#27;[0m&amp#27;[32m&amp#27;[1m"password"&amp#27;[0m                    &amp#27;[90m# com.browserstack.examples.stepdefs.CommonSteps.iTypeIn(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI enter shipping details &amp#27;[0m&amp#27;[32m&amp#27;[1m"first"&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m"last"&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m"test address"&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m"test province"&amp#27;[0m&amp#27;[32m and &amp#27;[0m&amp#27;[32m&amp#27;[1m"123456"&amp#27;[0m &amp#27;[90m# com.browserstack.examples.stepdefs.CheckoutPageSteps.iEnterShippingDetailsAnd(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mI should see user &amp#27;[0m&amp#27;[32m&amp#27;[1m'existing_orders_user'&amp#27;[0m&amp#27;[32m logged in&amp#27;[0m      &amp#27;[90m# com.browserstack.examples.stepdefs.HomePageSteps.iShouldUserLoggedIn(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI press Log In Button&amp#27;[0m                                    &amp#27;[90m# com.browserstack.examples.stepdefs.LoginPageSteps.iPressLogin()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="feature[&quot;Login with given &apos;existing_orders_user&apos; user&quot;, &quot;Optional[Login Feature]&quot;, com.browserstack.examples.core.ManagedWebDriver@3ba3d668](16)" classname="com.browserstack.examples.tests.RunWebDriverCucumberTests" time="3.102">
+    <system-out><![CDATA[
+@filter
+Scenario: Apply Apple Vendor Filter     &amp#27;[90m# features/product.feature:4&amp#27;[0m
+khalidshaikh_Cc8Pao:hxV3ZVmYkXGJXRbiyrvW
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI type &amp#27;[0m&amp#27;[32m&amp#27;[1m"testingisfun99"&amp#27;[0m&amp#27;[32m in &amp#27;[0m&amp#27;[32m&amp#27;[1m"password"&amp#27;[0m                                &amp#27;[90m# com.browserstack.examples.stepdefs.CommonSteps.iTypeIn(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mI should see user &amp#27;[0m&amp#27;[32m&amp#27;[1m'existing_orders_user'&amp#27;[0m&amp#27;[32m logged in&amp#27;[0m      &amp#27;[90m# com.browserstack.examples.stepdefs.HomePageSteps.iShouldUserLoggedIn(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI add two products to cart&amp#27;[0m                                                             &amp#27;[90m# com.browserstack.examples.stepdefs.HomePageSteps.iAddProductsToCart()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI press Log In Button&amp#27;[0m                                                &amp#27;[90m# com.browserstack.examples.stepdefs.LoginPageSteps.iPressLogin()&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI navigate to website&amp#27;[0m                               &amp#27;[90m# com.browserstack.examples.stepdefs.CommonSteps.iNavigateToWebsite()&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Nov 18, 2021 7:24:37 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+Nov 18, 2021 7:24:39 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="feature[&quot;Login as Locked User&quot;, &quot;Optional[Login Feature]&quot;, com.browserstack.examples.core.ManagedWebDriver@1ce6b125](17)" classname="com.browserstack.examples.tests.RunWebDriverCucumberTests" time="2.018">
+    <system-out><![CDATA[
+@filter
+Scenario: Apply Apple Vendor Filter     &amp#27;[90m# features/product.feature:4&amp#27;[0m
+khalidshaikh_Cc8Pao:hxV3ZVmYkXGJXRbiyrvW
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mI should see &amp#27;[0m&amp#27;[32m&amp#27;[1m"Your account has been locked."&amp#27;[0m&amp#27;[32m as Login Error Message&amp#27;[0m &amp#27;[90m# com.browserstack.examples.stepdefs.LoginPageSteps.iShouldSeeAsLoginErrorMessage(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI click on Buy Button&amp#27;[0m                                                                  &amp#27;[90m# com.browserstack.examples.stepdefs.HomePageSteps.iClickOnBuyButton()&amp#27;[0m
+]]></system-out>
+  </testcase>
+</testsuite>
